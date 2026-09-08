@@ -1,0 +1,99 @@
+/* =========================================
+   EMGLOSS NAILS - SMALL FOOTER
+========================================= */
+
+.footer {
+  background: #ecd6e8;
+  color: #a78479;
+  padding: 18px 5% 12px;
+}
+
+
+/* Footer content */
+.footer-container {
+  max-width: 1000px;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  gap: 25px;
+}
+
+
+/* Headings */
+.footer h3 {
+  color: #2b2828;
+  font-size: 15px;
+  margin: 0 0 5px;
+}
+
+
+/* Text */
+.footer p {
+  color: #504c4a;
+  font-size: 12px;
+  line-height: 1.4;
+  margin: 2px 0;
+}
+
+
+/* Links */
+.footer a {
+  color: #5C4A45;
+  text-decoration: none;
+  font-size: 12px;
+  margin-right: 15px;
+
+  transition: 0.2s ease;
+}
+
+
+.footer a:hover {
+  color: #C85B82;
+}
+
+
+/* Bottom */
+.footer-bottom {
+  text-align: center;
+  margin-top: 12px;
+  padding-top: 8px;
+
+  border-top: 1px solid rgba(74, 58, 54, 0.2);
+}
+
+
+.footer-bottom p {
+  margin: 0;
+  font-size: 11px;
+  color: #6B5751;
+}
+
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 768px) {
+
+  .footer {
+    padding: 15px 5% 10px;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+  }
+
+  .footer a {
+    margin: 0 7px;
+  }
+
+  .footer-bottom {
+    margin-top: 10px;
+    padding-top: 7px;
+  }
+}

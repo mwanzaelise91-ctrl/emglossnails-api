@@ -1,2 +1,8 @@
 node_modules/
+<<<<<<< HEAD
 .env
+=======
+.env
+*.env
+frontend/glossnw/src/.env
+>>>>>>> 13fb02e (Add Emgloss Nails frontend and backend)

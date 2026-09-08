@@ -1,0 +1,67 @@
+/* =========================================
+   EMGLOSS NAILS - GLOBAL SOFT PINK THEME
+========================================= */
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Main website */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #FFF7FA;
+  color: #3A3033;
+}
+
+/* React root */
+#root {
+  min-height: 100vh;
+  background-color: #FFF7FA;
+}
+
+/* Main headings */
+h1,
+h2,
+h3 {
+  color: #3A3033;
+}
+
+/* Paragraphs */
+p {
+  color: #766A6D;
+}
+
+/* Buttons */
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+/* Links */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* =========================================
+   EMGLOSS COLOUR PALETTE
+
+   Main background:  #FFF7FA
+   White:            #FFFFFF
+   Soft pink:        #FCE4EC
+   Pink:             #EFA3B5
+   Dark pink:        #D96B85
+   Text:             #3A3033
+   Light text:       #766A6D
+   Border:           #F2CCD5
+========================================= */
