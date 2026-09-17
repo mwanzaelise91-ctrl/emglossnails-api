@@ -1,0 +1,254 @@
+/* =========================================
+   EMGLOSS NAILS - SIGNUP PAGE
+========================================= */
+
+* {
+  box-sizing: border-box;
+}
+
+.signup-page {
+  min-height: 100vh;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  background: #fff8fa;
+}
+
+/* =========================================
+   LEFT SIDE
+========================================= */
+
+.signup-illustration {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 50px;
+  background: linear-gradient(
+    135deg,
+    #fff1f6,
+    #fce4ed,
+    #f8e9e2
+  );
+  overflow: hidden;
+}
+
+.illustration-content {
+  max-width: 500px;
+  width: 100%;
+}
+
+.illustration-content h1 {
+  margin: 0;
+  color: #8e456b;
+  font-size: 38px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.illustration-text {
+  margin: 10px 0 15px;
+  color: #9b647e;
+  font-size: 18px;
+  font-style: italic;
+}
+
+.nail-svg {
+  width: 400px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.welcome-text {
+  max-width: 380px;
+  margin: 5px auto 0;
+  color: #80616f;
+  font-size: 15px;
+  line-height: 1.7;
+}
+
+
+/* =========================================
+   RIGHT SIDE
+========================================= */
+
+.signup-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  background: #fffafb;
+}
+
+.signup-card {
+  width: 100%;
+  max-width: 460px;
+  padding: 45px;
+  background: white;
+  border-radius: 25px;
+  box-shadow: 0 15px 45px rgba(180, 100, 135, 0.12);
+}
+
+.signup-card h2 {
+  margin: 0;
+  color: #6f3d55;
+  text-align: center;
+  font-size: 32px;
+}
+
+.signup-subtitle {
+  margin: 8px 0 30px;
+  color: #9b7b89;
+  text-align: center;
+  font-size: 14px;
+}
+
+
+/* =========================================
+   FORM
+========================================= */
+
+.form-group {
+  margin-bottom: 18px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 7px;
+  color: #6f3d55;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 14px 16px;
+  border: 1px solid #ead5df;
+  border-radius: 12px;
+  outline: none;
+  background: #fffafb;
+  color: #513844;
+  font-size: 14px;
+  transition: 0.3s ease;
+}
+
+.form-group input::placeholder {
+  color: #b99da9;
+}
+
+.form-group input:focus {
+  border-color: #df8fb2;
+  box-shadow: 0 0 0 3px rgba(223, 143, 178, 0.12);
+}
+
+
+/* =========================================
+   SIGNUP BUTTON
+========================================= */
+
+.signup-button {
+  width: 100%;
+  margin-top: 8px;
+  padding: 14px;
+  border: none;
+  border-radius: 12px;
+  background: linear-gradient(
+    135deg,
+    #e89abb,
+    #cf719b
+  );
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.signup-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(207, 113, 155, 0.25);
+}
+
+.signup-button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  transform: none;
+}
+
+
+/* =========================================
+   ERROR MESSAGE
+========================================= */
+
+.signup-error {
+  margin-bottom: 18px;
+  padding: 12px;
+  border-radius: 10px;
+  background: #fff0f2;
+  color: #c04f70;
+  text-align: center;
+  font-size: 13px;
+}
+
+
+/* =========================================
+   LOGIN LINK
+========================================= */
+
+.login-link {
+  margin-top: 25px;
+  text-align: center;
+  color: #927683;
+  font-size: 14px;
+}
+
+.login-link a {
+  color: #cf719b;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.login-link a:hover {
+  text-decoration: underline;
+}
+
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 900px) {
+  .signup-page {
+    grid-template-columns: 1fr;
+  }
+
+  .signup-illustration {
+    min-height: auto;
+    padding: 40px 20px 20px;
+  }
+
+  .illustration-content h1 {
+    font-size: 30px;
+  }
+
+  .nail-svg {
+    width: 280px;
+  }
+
+  .welcome-text {
+    display: none;
+  }
+
+  .signup-container {
+    min-height: auto;
+    padding: 30px 20px 50px;
+  }
+
+  .signup-card {
+    padding: 30px 25px;
+  }
+}

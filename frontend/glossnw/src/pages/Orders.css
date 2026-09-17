@@ -1,0 +1,461 @@
+/* =====================================================
+   EMGLOSS NAILS - ORDERS PAGE
+===================================================== */
+
+.orders-page {
+  min-height: 100vh;
+  background: #fff8fa;
+  color: #292329;
+}
+
+/* =====================================================
+   ORDERS HERO
+===================================================== */
+
+.orders-hero {
+  padding: 65px 7%;
+
+  background:
+    radial-gradient(
+      circle at 85% 35%,
+      rgba(255, 205, 220, 0.55),
+      transparent 30%
+    ),
+    linear-gradient(
+      135deg,
+      #fff1f5,
+      #fff9fb 60%,
+      #ffe5ed
+    );
+}
+
+.orders-hero-content {
+  max-width: 750px;
+  margin: auto;
+
+  text-align: center;
+}
+
+.orders-label {
+  margin: 0 0 12px;
+
+  color: #e73d7d;
+
+  font-size: 11px;
+  font-weight: 800;
+
+  letter-spacing: 3px;
+}
+
+.orders-hero h1 {
+  margin: 0;
+
+  color: #211d20;
+
+  font-size: 45px;
+  line-height: 1.15;
+
+  font-weight: 800;
+}
+
+.orders-hero-content > p:last-child {
+  max-width: 600px;
+
+  margin: 18px auto 0;
+
+  color: #6e666b;
+
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+/* =====================================================
+   ORDERS SECTION
+===================================================== */
+
+.orders-section {
+  max-width: 1000px;
+
+  margin: auto;
+
+  padding: 65px 25px;
+}
+
+/* =====================================================
+   ORDERS HEADING
+===================================================== */
+
+.orders-heading {
+  display: flex;
+
+  align-items: flex-end;
+  justify-content: space-between;
+
+  gap: 25px;
+
+  margin-bottom: 30px;
+}
+
+.section-small {
+  margin: 0 0 7px;
+
+  color: #e73d7d;
+
+  font-size: 11px;
+  font-weight: 800;
+
+  letter-spacing: 2.5px;
+}
+
+.orders-heading h2 {
+  margin: 0;
+
+  color: #282226;
+
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.orders-heading p:last-child {
+  margin: 8px 0 0;
+
+  color: #777;
+
+  font-size: 14px;
+}
+
+.orders-count {
+  padding: 9px 17px;
+
+  background: white;
+
+  border: 1px solid #f2dce4;
+
+  border-radius: 25px;
+
+  color: #e73d7d;
+
+  font-size: 13px;
+  font-weight: 700;
+
+  white-space: nowrap;
+}
+
+/* =====================================================
+   ORDERS LIST
+===================================================== */
+
+.orders-list {
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 20px;
+}
+
+/* =====================================================
+   ORDER CARD
+===================================================== */
+
+.order-card {
+  overflow: hidden;
+
+  background: white;
+
+  border: 1px solid #f0dfe5;
+
+  border-radius: 16px;
+
+  box-shadow:
+    0 5px 18px rgba(40, 20, 30, 0.05);
+
+  transition: 0.3s ease;
+}
+
+.order-card:hover {
+  transform: translateY(-3px);
+
+  box-shadow:
+    0 10px 25px rgba(40, 20, 30, 0.08);
+}
+
+/* =====================================================
+   ORDER HEADER
+===================================================== */
+
+.order-header {
+  display: flex;
+
+  align-items: center;
+  justify-content: space-between;
+
+  gap: 20px;
+
+  padding: 20px;
+
+  background: #fffafd;
+
+  border-bottom: 1px solid #f4e5ea;
+}
+
+.order-number {
+  margin: 0 0 5px;
+
+  color: #30292e;
+
+  font-size: 15px;
+  font-weight: 800;
+}
+
+.order-date {
+  color: #888;
+
+  font-size: 12px;
+}
+
+/* =====================================================
+   ORDER STATUS
+===================================================== */
+
+.order-status {
+  padding: 7px 13px;
+
+  border-radius: 20px;
+
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.order-status.completed {
+  background: #e8f7ed;
+
+  color: #2f8a4b;
+}
+
+.order-status.processing {
+  background: #fff3dc;
+
+  color: #b87815;
+}
+
+/* =====================================================
+   ORDER PRODUCTS
+===================================================== */
+
+.order-products {
+  padding: 5px 20px;
+}
+
+.order-product {
+  display: flex;
+
+  align-items: center;
+
+  gap: 15px;
+
+  padding: 16px 0;
+
+  border-bottom: 1px solid #f5e9ed;
+}
+
+.order-product:last-child {
+  border-bottom: none;
+}
+
+/* PRODUCT ICON */
+
+.order-product-icon {
+  width: 55px;
+  height: 55px;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  flex-shrink: 0;
+
+  background: #fff0f5;
+
+  border-radius: 12px;
+
+  font-size: 25px;
+}
+
+/* PRODUCT INFO */
+
+.order-product-info {
+  flex: 1;
+}
+
+.order-product-info h3 {
+  margin: 0 0 5px;
+
+  color: #30292e;
+
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.order-product-info p {
+  margin: 0;
+
+  color: #888;
+
+  font-size: 12px;
+}
+
+/* PRODUCT PRICE */
+
+.order-product > strong {
+  color: #e73d7d;
+
+  font-size: 14px;
+
+  white-space: nowrap;
+}
+
+/* =====================================================
+   ORDER FOOTER
+===================================================== */
+
+.order-footer {
+  display: flex;
+
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 18px 20px;
+
+  background: #fff8fa;
+
+  border-top: 1px solid #f4e5ea;
+}
+
+.order-footer span {
+  color: #777;
+
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.order-footer strong {
+  color: #e73d7d;
+
+  font-size: 20px;
+  font-weight: 800;
+}
+
+/* =====================================================
+   ACTION BUTTON
+===================================================== */
+
+.orders-actions {
+  margin-top: 35px;
+
+  text-align: center;
+}
+
+.orders-actions button {
+  padding: 13px 25px;
+
+  background: #e73d7d;
+
+  border: none;
+
+  border-radius: 25px;
+
+  color: white;
+
+  font-size: 13px;
+  font-weight: 700;
+
+  cursor: pointer;
+
+  transition: 0.3s ease;
+}
+
+.orders-actions button:hover {
+  background: #c92d67;
+
+  transform: translateY(-2px);
+}
+
+/* =====================================================
+   TABLET
+===================================================== */
+
+@media (max-width: 700px) {
+
+  .orders-hero {
+    padding: 50px 20px;
+  }
+
+  .orders-hero h1 {
+    font-size: 34px;
+  }
+
+  .orders-section {
+    padding: 50px 18px;
+  }
+
+  .orders-heading {
+    flex-direction: column;
+
+    align-items: flex-start;
+  }
+
+  .orders-count {
+    align-self: flex-start;
+  }
+
+}
+
+/* =====================================================
+   SMALL PHONE
+===================================================== */
+
+@media (max-width: 480px) {
+
+  .orders-hero h1 {
+    font-size: 30px;
+  }
+
+  .orders-hero-content > p:last-child {
+    font-size: 13px;
+  }
+
+  .order-header {
+    align-items: flex-start;
+
+    flex-direction: column;
+  }
+
+  .order-status {
+    align-self: flex-start;
+  }
+
+  .order-product {
+    align-items: flex-start;
+  }
+
+  .order-product-icon {
+    width: 45px;
+    height: 45px;
+
+    font-size: 20px;
+  }
+
+  .order-product-info h3 {
+    font-size: 13px;
+  }
+
+  .order-product > strong {
+    font-size: 13px;
+  }
+
+  .order-footer strong {
+    font-size: 17px;
+  }
+
+}

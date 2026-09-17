@@ -1,0 +1,819 @@
+/* =====================================================
+   EMGLOSS NAILS - HOME PAGE
+===================================================== */
+
+.home-page {
+  min-height: 100vh;
+  background: #fff8fa;
+  color: #292329;
+  overflow-x: hidden;
+}
+
+/* =====================================================
+   HERO
+===================================================== */
+
+.hero-section {
+  min-height: 480px;
+  padding: 55px 7%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  gap: 35px;
+
+  background:
+    radial-gradient(
+      circle at 80% 30%,
+      rgba(255, 205, 220, 0.5),
+      transparent 28%
+    ),
+    linear-gradient(
+      135deg,
+      #fff1f5,
+      #fff9fb 55%,
+      #ffe5ed
+    );
+}
+
+.hero-content {
+  max-width: 570px;
+}
+
+.hero-small {
+  color: #e73d7d;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 3px;
+  margin-bottom: 14px;
+}
+
+.hero-content h1 {
+  margin: 0;
+  font-size: 46px;
+  line-height: 1.12;
+  font-weight: 800;
+  color: #211d20;
+}
+
+.hero-content h1 span {
+  color: #e73d7d;
+}
+
+.hero-description {
+  max-width: 500px;
+  margin: 18px 0;
+
+  font-size: 14px;
+  line-height: 1.7;
+  color: #6e666b;
+}
+
+/* =====================================================
+   HERO BUTTONS
+===================================================== */
+
+.hero-buttons {
+  display: flex;
+  gap: 12px;
+  margin-top: 22px;
+}
+
+.hero-buttons button {
+  padding: 12px 20px;
+  border-radius: 25px;
+
+  font-size: 13px;
+  font-weight: 700;
+
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.shop-btn {
+  border: 2px solid #e73d7d;
+  background: #e73d7d;
+  color: white;
+
+  box-shadow: 0 6px 15px rgba(231, 61, 125, 0.18);
+}
+
+.shop-btn:hover {
+  background: #c92d67;
+  border-color: #c92d67;
+  transform: translateY(-2px);
+}
+
+.book-btn {
+  background: white;
+  color: #e73d7d;
+  border: 2px solid #e73d7d;
+}
+
+.book-btn:hover {
+  background: #e73d7d;
+  color: white;
+  transform: translateY(-2px);
+}
+
+/* =====================================================
+   HERO DECORATION
+===================================================== */
+
+.hero-decoration {
+  width: 260px;
+  height: 260px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  flex-shrink: 0;
+}
+
+.hero-circle {
+  width: 210px;
+  height: 210px;
+
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: linear-gradient(
+    145deg,
+    #ffd1df,
+    #ffffff
+  );
+
+  border: 7px solid rgba(255, 255, 255, 0.8);
+
+  box-shadow:
+    0 15px 40px rgba(231, 61, 125, 0.15);
+}
+
+.hero-circle span {
+  font-size: 65px;
+}
+
+/* =====================================================
+   SECTION HEADINGS
+===================================================== */
+
+.section-heading {
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto 35px;
+}
+
+.section-small {
+  color: #e73d7d;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 2.5px;
+  margin-bottom: 8px;
+}
+
+.section-heading h2,
+.products-heading h2,
+.why-section h2 {
+  margin: 0;
+  color: #282226;
+  font-size: 32px;
+  font-weight: 800;
+}
+
+.section-heading > p:last-child {
+  margin-top: 10px;
+  color: #777;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+/* =====================================================
+   CATEGORIES
+===================================================== */
+
+.categories-section {
+  padding: 60px 6%;
+  background: white;
+}
+
+.category-grid {
+  max-width: 1100px;
+  margin: auto;
+
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 15px;
+}
+
+.category-card {
+  padding: 22px 15px;
+
+  text-align: center;
+
+  background: #fff8fa;
+
+  border: 1px solid #f5dce5;
+  border-radius: 15px;
+
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.category-card:hover {
+  transform: translateY(-5px);
+  background: white;
+
+  box-shadow:
+    0 10px 25px rgba(231, 61, 125, 0.1);
+}
+
+.category-card span {
+  display: block;
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.category-card h3 {
+  margin: 0 0 5px;
+
+  font-size: 15px;
+  color: #30292e;
+}
+
+.category-card p {
+  margin: 0;
+
+  font-size: 12px;
+  color: #888;
+}
+
+/* =====================================================
+   PRODUCTS
+===================================================== */
+
+.products-section {
+  padding: 60px 6%;
+  background: #fff8fa;
+}
+
+.products-heading {
+  max-width: 1100px;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  gap: 20px;
+}
+
+.products-heading h2 {
+  font-size: 30px;
+  margin: 0;
+}
+
+.products-heading > div > p:last-child {
+  margin-top: 8px;
+
+  color: #777;
+  font-size: 14px;
+}
+
+/* =====================================================
+   VIEW ALL BUTTON
+===================================================== */
+
+.view-all-btn {
+  padding: 11px 20px;
+
+  background: white;
+  color: #e73d7d;
+
+  border: 2px solid #e73d7d;
+  border-radius: 25px;
+
+  font-size: 13px;
+  font-weight: 700;
+
+  cursor: pointer;
+  white-space: nowrap;
+
+  transition: 0.3s ease;
+}
+
+.view-all-btn:hover {
+  background: #e73d7d;
+  color: white;
+}
+
+/* =====================================================
+   PRODUCT GRID
+===================================================== */
+
+.products-grid {
+  max-width: 1050px;
+  margin: 30px auto 0;
+
+  display: grid;
+
+  grid-template-columns: repeat(4, 1fr);
+
+  gap: 18px;
+}
+
+/* =====================================================
+   PRODUCT CARD
+===================================================== */
+
+.product-card {
+  background: white;
+
+  border: 1px solid #f1dfe5;
+  border-radius: 14px;
+
+  overflow: hidden;
+
+  box-shadow:
+    0 4px 14px rgba(40, 20, 30, 0.05);
+
+  transition: 0.3s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+
+  box-shadow:
+    0 10px 25px rgba(40, 20, 30, 0.1);
+}
+
+/* =====================================================
+   PRODUCT IMAGE
+   SMALL + NEAT
+===================================================== */
+
+.product-image {
+  height: 140px;
+  width: 100%;
+
+  background: #faf1f4;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  overflow: hidden;
+
+  cursor: pointer;
+
+  position: relative;
+}
+
+.product-image img {
+  width: 85%;
+  height: 85%;
+
+  object-fit: contain;
+
+  display: block;
+
+  transition: 0.3s ease;
+}
+
+.product-card:hover .product-image img {
+  transform: scale(1.04);
+}
+
+/* VIEW PRODUCT */
+
+.product-view {
+  position: absolute;
+
+  bottom: 10px;
+  left: 50%;
+
+  transform: translateX(-50%);
+
+  padding: 6px 12px;
+
+  border-radius: 20px;
+
+  background: rgba(231, 61, 125, 0.95);
+
+  color: white;
+
+  font-size: 10px;
+  font-weight: 700;
+
+  opacity: 0;
+
+  transition: 0.3s ease;
+
+  white-space: nowrap;
+}
+
+.product-card:hover .product-view {
+  opacity: 1;
+}
+
+/* =====================================================
+   PRODUCT INFORMATION
+===================================================== */
+
+.product-info {
+  padding: 14px;
+}
+
+.product-category {
+  margin: 0 0 5px;
+
+  color: #e73d7d;
+
+  font-size: 9px;
+  font-weight: 800;
+
+  letter-spacing: 1.2px;
+
+  text-transform: uppercase;
+}
+
+.product-info h3 {
+  margin: 0 0 6px;
+
+  font-size: 16px;
+
+  color: #30292e;
+}
+
+.product-description {
+  margin: 0 0 13px;
+
+  min-height: 36px;
+
+  font-size: 12px;
+  line-height: 1.5;
+
+  color: #777;
+}
+
+.product-bottom {
+  display: flex;
+
+  align-items: center;
+  justify-content: space-between;
+
+  gap: 8px;
+}
+
+.product-bottom strong {
+  color: #e73d7d;
+
+  font-size: 16px;
+}
+
+.add-cart-btn {
+  padding: 7px 11px;
+
+  border: none;
+  border-radius: 20px;
+
+  background: #e73d7d;
+  color: white;
+
+  font-size: 10px;
+  font-weight: 700;
+
+  cursor: pointer;
+
+  transition: 0.3s ease;
+}
+
+.add-cart-btn:hover {
+  background: #c92d67;
+}
+
+/* =====================================================
+   WHY EMGLOSS
+===================================================== */
+
+.why-section {
+  padding: 65px 6%;
+
+  background: white;
+
+  text-align: center;
+}
+
+.why-section > h2 {
+  margin-bottom: 35px;
+}
+
+.why-grid {
+  max-width: 950px;
+  margin: auto;
+
+  display: grid;
+
+  grid-template-columns: repeat(3, 1fr);
+
+  gap: 18px;
+}
+
+.why-card {
+  padding: 28px 20px;
+
+  background: #fff8fa;
+
+  border-radius: 16px;
+
+  border: 1px solid #f5dce5;
+
+  transition: 0.3s ease;
+}
+
+.why-card:hover {
+  transform: translateY(-5px);
+
+  box-shadow:
+    0 12px 28px rgba(231, 61, 125, 0.08);
+}
+
+.why-card span {
+  display: block;
+
+  font-size: 34px;
+
+  margin-bottom: 12px;
+}
+
+.why-card h3 {
+  margin: 0 0 8px;
+
+  font-size: 16px;
+
+  color: #30292e;
+}
+
+.why-card p {
+  margin: 0;
+
+  color: #777;
+
+  font-size: 13px;
+
+  line-height: 1.6;
+}
+
+/* =====================================================
+   TABLET
+===================================================== */
+
+@media (max-width: 1100px) {
+
+  .hero-content h1 {
+    font-size: 42px;
+  }
+
+  .category-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .products-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* =====================================================
+   MOBILE
+===================================================== */
+
+@media (max-width: 750px) {
+
+  .hero-section {
+    min-height: auto;
+
+    padding: 50px 20px;
+
+    flex-direction: column;
+
+    text-align: center;
+  }
+
+  .hero-content {
+    max-width: 100%;
+  }
+
+  .hero-content h1 {
+    font-size: 36px;
+  }
+
+  .hero-description {
+    font-size: 14px;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+
+    align-items: center;
+  }
+
+  .hero-buttons button {
+    width: 100%;
+    max-width: 280px;
+  }
+
+  .hero-decoration {
+    width: 190px;
+    height: 190px;
+  }
+
+  .hero-circle {
+    width: 170px;
+    height: 170px;
+  }
+
+  .hero-circle span {
+    font-size: 55px;
+  }
+
+  .category-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .products-heading {
+    flex-direction: column;
+
+    align-items: flex-start;
+  }
+
+  .products-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .why-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* =====================================================
+   SMALL PHONE
+===================================================== */
+
+@media (max-width: 480px) {
+
+  .hero-content h1 {
+    font-size: 31px;
+  }
+
+  .category-grid,
+  .products-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .categories-section,
+  .products-section,
+  .why-section {
+    padding: 50px 18px;
+  }
+
+  .product-image {
+    height: 150px;
+  }
+}
+/* =========================================
+   EMGLOSS NAILS - OUR STORY
+========================================= */
+
+.story-link {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  font: inherit;
+  text-align: left;
+  transition: 0.3s ease;
+}
+
+.story-link:hover {
+  color: #d86b91;
+  transform: translateY(-2px);
+}
+
+
+/* OUR STORY SECTION */
+
+.our-story-section {
+  padding: 90px 8%;
+  background: #fff8f5;
+  display: flex;
+  justify-content: center;
+}
+
+.story-content {
+  max-width: 900px;
+  text-align: center;
+}
+
+.story-content .section-small {
+  color: #c85b82;
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  margin-bottom: 12px;
+}
+
+.story-content h2 {
+  font-size: 38px;
+  margin-bottom: 25px;
+  color: #292323;
+}
+
+.story-content > p {
+  color: #666;
+  font-size: 16px;
+  line-height: 1.8;
+  margin-bottom: 18px;
+}
+
+
+/* STORY HIGHLIGHT */
+
+.story-highlight {
+  margin: 35px auto;
+  padding: 25px 30px;
+  max-width: 600px;
+
+  display: flex;
+  align-items: center;
+  gap: 20px;
+
+  background: #ffffff;
+  border-radius: 18px;
+
+  box-shadow: 0 10px 30px rgba(80, 40, 50, 0.08);
+
+  text-align: left;
+}
+
+.story-highlight > span {
+  font-size: 45px;
+}
+
+.story-highlight h3 {
+  margin: 0 0 7px;
+  font-size: 21px;
+  color: #292323;
+}
+
+.story-highlight p {
+  margin: 0;
+  color: #777;
+}
+
+
+/* STORY BUTTON */
+
+.story-shop-btn {
+  border: none;
+  background: #d86b91;
+  color: white;
+
+  padding: 14px 25px;
+
+  border-radius: 30px;
+
+  font-size: 15px;
+  font-weight: bold;
+
+  cursor: pointer;
+
+  transition: 0.3s ease;
+}
+
+.story-shop-btn:hover {
+  background: #b94f76;
+  transform: translateY(-2px);
+}
+
+
+/* MOBILE */
+
+@media (max-width: 768px) {
+
+  .our-story-section {
+    padding: 65px 6%;
+  }
+
+  .story-content h2 {
+    font-size: 30px;
+  }
+
+  .story-highlight {
+    padding: 20px;
+  }
+
+}

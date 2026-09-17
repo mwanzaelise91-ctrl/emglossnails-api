@@ -1,0 +1,282 @@
+/* =========================================
+   EMGLOSS NAILS - NAVBAR
+   SOFT PINK THEME
+========================================= */
+
+.navbar {
+  width: 100%;
+  min-height: 75px;
+
+  background: #efa3b5;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 0 6%;
+
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+
+  box-shadow: 0 3px 15px rgba(217, 107, 133, 0.18);
+}
+
+
+/* =========================================
+   LOGO
+========================================= */
+
+.navbar-logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  color: #ffffff;
+
+  font-size: 25px;
+  font-weight: 700;
+
+  text-decoration: none;
+  letter-spacing: 1px;
+
+  padding: 8px 12px;
+  border-radius: 12px;
+
+  transition: all 0.3s ease;
+}
+
+
+/* Logo icon */
+
+.navbar-logo-icon {
+  font-size: 24px;
+  transition: transform 0.3s ease;
+}
+
+
+/* Logo hover */
+
+.navbar-logo:hover {
+  background: #d96b85;
+  color: #ffffff;
+
+  transform: translateY(-2px);
+}
+
+
+/* Make nail icon move slightly */
+
+.navbar-logo:hover .navbar-logo-icon {
+  transform: rotate(-10deg) scale(1.1);
+}
+
+
+/* EMGloss middle part */
+
+.navbar-logo span span {
+  color: #fff0f4;
+}
+
+
+/* =========================================
+   NAVIGATION LINKS
+========================================= */
+
+.navbar-links {
+  display: flex;
+  align-items: center;
+
+  gap: 28px;
+}
+
+
+.navbar-links a {
+  color: #ffffff;
+
+  text-decoration: none;
+
+  font-size: 15px;
+  font-weight: 600;
+
+  padding: 9px 13px;
+
+  border-radius: 10px;
+
+  transition: all 0.3s ease;
+}
+
+
+/* Hover */
+
+.navbar-links a:hover {
+  background: #d96b85;
+
+  color: #ffffff;
+
+  transform: translateY(-2px);
+
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+
+/* Active link */
+
+.navbar-links a.active {
+  background: #d96b85;
+  color: #ffffff;
+}
+
+
+/* =========================================
+   CART + PROFILE
+========================================= */
+
+.navbar-icons {
+  display: flex;
+  align-items: center;
+
+  /* More space between cart and profile */
+  gap: 25px;
+}
+
+
+/* Cart + Profile */
+
+.navbar-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 45px;
+  height: 45px;
+
+  background: transparent;
+
+  color: #ffffff;
+
+  border: 2px solid transparent;
+
+  border-radius: 50%;
+
+  font-size: 21px;
+
+  text-decoration: none;
+
+  transition: all 0.3s ease;
+}
+
+
+/* Hover */
+
+.navbar-icon:hover {
+  background: #ffffff;
+
+  color: #d96b85;
+
+  border-color: #ffffff;
+
+  transform: translateY(-3px) scale(1.05);
+
+  box-shadow: 0 5px 12px rgba(0, 0, 0, 0.12);
+}
+
+
+/* =========================================
+   NAVBAR BUTTONS
+========================================= */
+
+.navbar button {
+  background: #ffffff;
+
+  color: #d96b85;
+
+  border: 2px solid #ffffff;
+
+  padding: 10px 20px;
+
+  border-radius: 25px;
+
+  font-weight: 700;
+
+  transition: all 0.3s ease;
+}
+
+
+/* Button hover */
+
+.navbar button:hover {
+  background: #d96b85;
+
+  color: #ffffff;
+
+  border-color: #ffffff;
+
+  transform: translateY(-2px);
+}
+
+
+/* Button click */
+
+.navbar button:active {
+  transform: scale(0.96);
+}
+
+
+/* =========================================
+   ALL NAVBAR LINKS
+========================================= */
+
+.navbar a,
+.navbar button {
+  cursor: pointer;
+}
+
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 768px) {
+
+  .navbar {
+    padding: 0 4%;
+    min-height: 65px;
+  }
+
+
+  .navbar-logo {
+    font-size: 20px;
+    padding: 6px 8px;
+  }
+
+
+  .navbar-logo-icon {
+    font-size: 20px;
+  }
+
+
+  .navbar-links {
+    gap: 8px;
+  }
+
+
+  .navbar-links a {
+    font-size: 13px;
+    padding: 7px 8px;
+  }
+
+
+  .navbar-icons {
+    gap: 15px;
+  }
+
+
+  .navbar-icon {
+    width: 38px;
+    height: 38px;
+
+    font-size: 18px;
+  }
+
+}

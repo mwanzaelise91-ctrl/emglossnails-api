@@ -1,0 +1,349 @@
+/* =========================================
+   EMGLOSS NAILS - ABOUT / OUR STORY
+========================================= */
+
+* {
+  box-sizing: border-box;
+}
+
+.about-page {
+  min-height: 100vh;
+  background: #fff8f5;
+  color: #292323;
+}
+
+
+/* =========================================
+   HERO
+========================================= */
+
+.about-hero {
+  text-align: center;
+  padding: 100px 20px 85px;
+  background: #f8e4e9;
+}
+
+.about-hero-content {
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+.about-small {
+  color: #c85b82;
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  margin-bottom: 15px;
+}
+
+.about-hero h1 {
+  font-size: 52px;
+  margin: 0 0 20px;
+  color: #292323;
+}
+
+.about-hero h1 span {
+  font-size: 45px;
+}
+
+.about-hero p:last-child {
+  max-width: 650px;
+  margin: 0 auto;
+  color: #666;
+  font-size: 17px;
+  line-height: 1.7;
+}
+
+
+/* =========================================
+   OUR STORY
+========================================= */
+
+.story-section {
+  max-width: 1150px;
+  margin: auto;
+  padding: 90px 30px;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 70px;
+  align-items: center;
+}
+
+.story-text .section-small,
+.about-values .section-small,
+.about-offer .section-small {
+  color: #c85b82;
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+.story-text h2 {
+  font-size: 38px;
+  margin: 15px 0 25px;
+  color: #292323;
+}
+
+.story-text p {
+  color: #666;
+  line-height: 1.8;
+  margin-bottom: 18px;
+}
+
+
+/* =========================================
+   STORY CARD
+========================================= */
+
+.story-card {
+  background: #ffffff;
+  padding: 55px 35px;
+  border-radius: 25px;
+  text-align: center;
+
+  box-shadow: 0 15px 40px rgba(70, 30, 40, 0.08);
+
+  transition: 0.3s ease;
+}
+
+.story-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 45px rgba(70, 30, 40, 0.12);
+}
+
+.story-icon {
+  width: 90px;
+  height: 90px;
+  margin: 0 auto 25px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: #f8d8e2;
+  border-radius: 50%;
+
+  font-size: 42px;
+}
+
+.story-card-small {
+  color: #c85b82;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin-bottom: 12px;
+}
+
+.story-card h2 {
+  color: #292323;
+  font-size: 27px;
+  margin-bottom: 15px;
+}
+
+.story-card p {
+  color: #777;
+  line-height: 1.7;
+  margin-bottom: 25px;
+}
+
+.story-card span {
+  color: #c85b82;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+
+/* =========================================
+   VALUES
+========================================= */
+
+.about-values {
+  text-align: center;
+  padding: 90px 30px;
+  background: #ffffff;
+}
+
+.about-values h2 {
+  font-size: 36px;
+  margin: 15px 0 15px;
+  color: #292323;
+}
+
+.values-intro {
+  max-width: 650px;
+  margin: 0 auto 45px;
+  color: #666;
+  line-height: 1.7;
+}
+
+.values-grid {
+  max-width: 1100px;
+  margin: auto;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+.value-card {
+  padding: 35px 25px;
+  background: #fff8f5;
+  border-radius: 20px;
+
+  transition: 0.3s ease;
+}
+
+.value-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 30px rgba(70, 30, 40, 0.08);
+}
+
+.value-card span {
+  font-size: 38px;
+}
+
+.value-card h3 {
+  margin: 15px 0 10px;
+  color: #292323;
+}
+
+.value-card p {
+  color: #666;
+  line-height: 1.6;
+}
+
+
+/* =========================================
+   WHAT WE OFFER
+========================================= */
+
+.about-offer {
+  text-align: center;
+  padding: 90px 30px;
+
+  background: #f8e4e9;
+}
+
+.about-offer-content {
+  max-width: 750px;
+  margin: auto;
+}
+
+.about-offer h2 {
+  font-size: 36px;
+  margin: 15px 0 20px;
+  color: #292323;
+}
+
+.about-offer-content > p:not(.section-small) {
+  max-width: 650px;
+  margin: 0 auto 30px;
+
+  color: #666;
+  line-height: 1.7;
+  font-size: 16px;
+}
+
+
+/* =========================================
+   ABOUT BUTTONS
+========================================= */
+
+.about-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.about-buttons button {
+  border: none;
+  padding: 13px 25px;
+
+  border-radius: 25px;
+
+  background: #d96b85;
+  color: white;
+
+  font-size: 15px;
+  font-weight: bold;
+
+  cursor: pointer;
+
+  transition: all 0.3s ease;
+}
+
+.about-buttons button:hover {
+  background: #b94f6b;
+  transform: translateY(-3px);
+  box-shadow: 0 8px 18px rgba(185, 79, 107, 0.25);
+}
+
+.about-buttons button:active {
+  transform: scale(0.97);
+}
+
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 768px) {
+
+  .about-hero {
+    padding: 75px 20px 65px;
+  }
+
+  .about-hero h1 {
+    font-size: 40px;
+  }
+
+  .about-hero h1 span {
+    font-size: 35px;
+  }
+
+  .about-hero p:last-child {
+    font-size: 15px;
+  }
+
+  .story-section {
+    grid-template-columns: 1fr;
+    gap: 40px;
+    padding: 65px 20px;
+  }
+
+  .story-text h2 {
+    font-size: 30px;
+  }
+
+  .about-values {
+    padding: 65px 20px;
+  }
+
+  .about-values h2 {
+    font-size: 30px;
+  }
+
+  .values-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .about-offer {
+    padding: 65px 20px;
+  }
+
+  .about-offer h2 {
+    font-size: 30px;
+  }
+
+  .about-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-buttons button {
+    width: 100%;
+    max-width: 300px;
+  }
+}
