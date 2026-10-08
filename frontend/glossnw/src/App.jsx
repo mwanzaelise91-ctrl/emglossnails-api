@@ -30,7 +30,7 @@ import { CartProvider } from "./components/CartContext";
 // ================================
 // Backend API
 // ================================
-export const API_BASE_URL = "http://localhost:3001";
+export const API_BASE_URL = "http://192.168.0.187:3001";
 
 function App() {
   const [auth, setAuth] = React.useState(
