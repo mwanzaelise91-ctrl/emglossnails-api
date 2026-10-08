@@ -66,7 +66,6 @@ function Signup() {
         return;
       }
 
-      alert("Account created successfully!");
       navigate("/login");
 
     } catch (error) {
