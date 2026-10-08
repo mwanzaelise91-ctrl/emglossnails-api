@@ -46,7 +46,7 @@ function Signup() {
     try {
       setLoading(true);
 
-      const response = await fetch("http://localhost:3001/signup", {
+      const response = await fetch("http://192.168.0.187:3001/signup", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -66,7 +66,6 @@ function Signup() {
         return;
       }
 
-      alert("Account created successfully!");
       navigate("/login");
 
     } catch (error) {
